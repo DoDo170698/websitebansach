@@ -1,0 +1,427 @@
+﻿body {
+    position:relative;
+    background-image: url('../hinhanh/khungcanh.jpg');
+    background-size: cover;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    display: block;
+    top:0;
+}
+ul{
+    margin:0;
+    padding:0;
+}
+li{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body>#chinh{
+    height: 100%;
+    width:100%;
+    position:fixed;
+}
+left {
+    height: 100%;
+    width: auto;
+    background-color: #242323d4;
+    display: block;
+    margin: 0;
+    float: left;
+}
+.thongtin-admin{
+    width: auto;
+    height:auto;
+}
+.avatar-admin {
+    padding: 20px 0px 0px 0px;
+    text-align:center;
+}
+.avatar-dodo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.xinchao-admin{
+    width:auto;
+    height:auto;
+    padding: 15px;
+    text-align:center;
+}
+.xinchao-admin span{
+    margin: auto;
+    font-size: 25px;
+    color: white;
+}
+.list-chucnang {
+    padding: 10px 0px 20px 0px;
+    font-weight: bold;
+}
+.list-chucnang li {
+    border-bottom: 2px solid white;
+    text-align: center;
+    background-color: #9dcd258f;
+    /*animation: colorBackground 5s infinite;*/
+    /*-webkit-animation: colorBackground 5s infinite;*/
+}
+/*@keyframes colorBackground {
+    0% {
+        background-color: none;
+    }
+    50% {
+        background-color: #9dcd258f;
+    }
+}*/
+.list-chucnang li:hover {
+    background-color: #aee030;
+    transition: 0.5s;
+}
+.list-chucnang li:hover a {
+    color: black;
+}
+.list-chucnang li a {
+    color: white;
+    display: block;
+    line-height: 55px;
+    padding: 0px 30px 0px 30px;
+}
+
+right {
+    position:relative;
+    height: 100%;
+    width: auto;
+    display: block;
+    margin: 0;
+    float: left;
+}
+.content {
+    width: 1105px;
+    height: 620px;
+    background-color: #faf9f9;
+    margin: 65px 0px 0px 85px;
+    position: absolute;
+    padding: 0px 20px 0px 20px;
+}
+.title {
+    width: auto;
+    height: 20px;
+    color: #53666f;
+    margin: 10px 0px 15px 0px;
+    position: relative;
+}
+
+.title .hieuung-title {
+    border-bottom: 2px solid #4caf50;
+    width: auto;
+    font-size: 22px;
+    top: 26px;
+    float: left;
+    position: absolute;
+    padding: 0px 5px 0px 5px;
+    top: 0;
+}
+
+.Dashboard {
+    display:none;
+}
+.qlsach {
+    display: none;
+}
+
+.qltacgia{
+    display:none;
+}
+
+.qlnxb {
+    display: none;
+}
+
+.qltaikhoan {
+    display: block;
+}
+
+.Dashboard #pie {
+    max-width: 320px;
+    max-height: 220px;
+}
+.Dashboard #bar {
+    max-width: 705px;
+    max-height: 220px;
+    margin-left: 20px;
+}
+.Dashboard #line{
+    max-height:255px;
+    max-width:630px;
+}
+.Dashboard #list-admin {
+    height: 240px;
+    width: 395px;
+    margin-left: 20px;
+}
+.Dashboard .top {
+    margin: 35px 10px 5px 10px;
+    height: 250px;
+    width: auto;
+}
+.Dashboard .buttom {
+    margin: 13px 10px 5px 10px;
+    height: 255px;
+    width: auto;
+}
+.ctDashboard {
+    float: left;
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    height:100%;
+}
+.title-list-admin {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px 0px 15px 0px;
+    color: #53666f;
+}
+.list-admin{
+    float: left;
+    width:50%;
+}
+.list-admin li{
+    margin: 0px 0px 13px 10px;
+    height:55px;
+}
+.list-admin img{
+    float: left;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+}
+.list-admin p {
+    font-weight: bold;
+    font-size: 17px;
+    float: left;
+    margin-left: 15px;
+    color: #d28411;
+}
+
+
+.tbtaikhoan {
+    margin-top: 10px;
+    width: 80%;
+    float: left;
+    max-height: 515px;
+}
+
+.chucnang-taikhoan {
+    width: 20%;
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+    height: 515px;
+    background-color: #cedcf6;
+}
+.chucnang-taikhoan ul {
+    width: auto;
+    height: 100%;
+    font-weight:bold;
+    font-size: 18px;
+}
+.chucnang-taikhoan ul li {
+    padding: 15px 0px 15px 0px;
+    border-bottom: 1px solid #9599e7;
+}
+.chucnang-taikhoan b{
+    font-size: 20px;
+}
+.chucnang-taikhoan a {
+    display: block;
+}
+
+.chucnang-taikhoan input {
+    margin: 5px 0px 5px 0px;
+}
+.chucnang-taikhoan #txttaikhoan {
+    margin-bottom: 20px;
+    width: 80%;
+    height: 30px;
+    font-size: 22px;
+}
+.chucnang-taikhoan .btntaikhoan {
+    width: 125px;
+    height: 35px;
+    background-color: #2381b2;
+    border: medium none;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+.chucnang-taikhoan .btntaikhoan:hover {
+    background-color: #205d7c;
+}
+
+.qlsach > .chucnang-qlsach {
+    margin-top: 10px;
+}
+.chucnang-qlsach #cke_txtnoidung {
+    position: absolute;
+    bottom: 10px;
+    float: left;
+    width: 1103px;
+}
+.chucnang-qlsach ul li{
+    margin:15px 0px 15px 0px;
+}
+.chucnang-qlsach label {
+    float: left;
+    width: 170px;
+    line-height: 36px;
+    font-weight: bold;
+    color: #3434e1;
+    font-size: 18px;
+}
+
+.qlsach-left {
+    float:left;
+    border-right: 1px solid #bfb8b8;
+    width: 490px;
+    height: auto;
+}
+.chucnang-qlsach .text {
+    width: 300px;
+}
+.qlsach-centent {
+    text-align: center;
+    float: left;
+    background-color: white;
+    width: 165px;
+    height: 200px;
+    margin: 15px 24px 15px 24px;
+    cursor: pointer;
+    border:1px solid black;
+}
+.qlsach-centent img {
+    margin-top: 65px;
+    width: 40px;
+    height: 40px;
+}
+    .qlsach-centent label {
+        font-size: 13px;
+        color: #615c5c;
+        cursor: pointer;
+    }
+.qlsach-right {
+    background-color: #fcfcfc;
+    height: 228px;
+    width: 397px;
+    float: right;
+    border-left: 1px solid #bfb8b8;
+    border-right: 1px solid #bfb8b8;
+}
+    .qlsach-right label {
+        width: 100%;
+        padding: 5px 0px 5px 0px;
+        background-color: #9de4eb;
+    }
+.qlsach-right div {
+    width: 100%;
+    height: 55px;
+    margin-bottom: 15px;
+    text-align:center;
+}
+.qlsach-right .button {
+    float: left;
+    width: 105px;
+    height: 45px;
+    border:1px solid #2381b2;
+    font-weight:bold;
+    margin: 5px 15px 0px 60px;
+}
+.qlsach-right .button:hover {
+    background: white;
+    color: #2381b2;
+}
+.chucnang-qlnxb {
+    width: 100%;
+    height: 575px;
+}
+.qlnxb-top {
+    width: 100%;
+    height: auto;
+    margin: 5px 0px 0px 0px;
+    float: left;
+}
+.qlnxb-top ul{
+    height:auto;
+    float:left;
+    margin:0px 0px 10px 0px;
+}
+.qlnxb-top ul li {
+    float: left;
+    height: auto;
+    width: 165px;
+    margin: 0px 8.5px 0px 8.5px;
+    border: 1px solid #d5d4d4;
+    cursor:pointer;
+}
+.qlnxb-top ul li:hover label {
+    color: #5a56ea;
+}
+.qlnxb-top ul li img {
+    width: 100%;
+    height: 210px;
+}
+.qlnxb-top ul li label {
+    float: left;
+    margin-top: -5px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    color: #2dae2b;
+    padding: 9px 0px 3px 0px;
+    background: #ebe9e9;
+}
+.qlnxb-bottom {
+    float: left;
+    margin: 2px 0px 0px 10px;
+    width: 98%;
+    height: 55px;
+    background: #baebf3;
+    border-radius: 40px;
+    text-align:center;
+}
+.qlnxb-bottom button {
+    font-weight:bold;
+    float: left;
+    margin: 8px 50px 0px 135px;
+    width: 150px;
+    border-radius: 40px;
+    border: 1px solid #2381b2;
+}
+.qlnxb-bottom button:hover {
+    background: white;
+    color: #2381b2;
+}
+.text {
+    background: #ffffff;
+    border: 1px solid #d5d5d5;
+    padding: 8px 0;
+    border-radius: 2px;
+    text-indent: 10px;
+    font-size: 17px;
+    font-family: Aril;
+}
+.blue {
+    background-color: #2381b2;
+    border: medium none;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    width: 100px;
+    height: 40px;
+    margin: 0px 0px 10px 0px;
+    padding: auto;
+}

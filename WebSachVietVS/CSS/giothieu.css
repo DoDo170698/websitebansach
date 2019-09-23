@@ -1,0 +1,54 @@
+﻿.content-contenter {
+    clear: both;
+    float: left;
+    margin-top: 10px;
+    padding-bottom: 15px;
+    min-height: 300px;
+    width: 100%;
+    background-color: white;
+}
+
+.title {
+    box-shadow: 1px 1px 1px #b3afaf;
+    border-bottom: 2px solid #ccc;
+    clear: both;
+    float: left;
+    padding: 10px;
+    width: 98%;
+    background: white;
+    display: block;
+    position:relative;
+}
+
+.title img {
+    float: left;
+    height: 30px;
+    width: 30px;
+}
+
+.title span {
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0px 0px 0px 15px;
+    color: #807d7d;
+}
+
+.contenter-left{
+    float:left;
+    width:800px;
+}
+.contenter{
+    margin:20px 20px 0px 25px;
+}
+.contenter p{
+    line-height:25px;
+    text-align:justify;
+    font-size:17px;
+}
+
+.contenter-right {
+    float: right;
+    width: 200px;
+}

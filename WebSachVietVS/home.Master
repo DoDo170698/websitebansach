@@ -1,0 +1,121 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="home.master.cs" Inherits="WebSachVietVS.home1" %>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="CSS/home.css" rel="stylesheet" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <script src="JS/header-fidex.js"></script>
+    <link rel="shortcut icon" href="/hinhanh/favicon.ico"> 
+    <asp:ContentPlaceHolder ID="cph_head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    <header>
+		<div id="top">
+			<div class="header-content">
+				<div class="top-left">
+                    <img class="title-logo" src="hinhanh/logo.png" />
+					<div class="header-search">
+						<input type="text" name="txttimkiem" class="search-box" placeholder="Tìm kiếm trong kho sách">
+					</div>
+				</div>
+				<div class="top-right">
+                    <asp:LinkButton ID="btndangky" runat="server" href="dangky.aspx"><img src="hinhanh/dangky.png" />Đăng ký</asp:LinkButton>
+                    <asp:LinkButton ID="btndangnhap" runat="server" href="dangnhap.aspx"><img src="hinhanh/dangnhap2.png" />Đăng nhập</asp:LinkButton>
+                    <asp:LinkButton ID="btnhethong" runat="server" href="#" class="btnhethong"><img src="hinhanh/banhrang.png" /></asp:LinkButton>
+                    <div class="hethong">
+                        <asp:LinkButton ID="btnthoat" runat="server" class="dadangnhap" OnClick="btnthoat_Click"><img src="hinhanh/exit.png" />Đăng xuất</asp:LinkButton>
+                        <asp:LinkButton ID="btndoimk"  runat="server" class="dadangnhap" href="doimatkhau.aspx"><img src="hinhanh/dangky.png" />Đổi mật khẩu</asp:LinkButton>
+                    </div>
+                    <div class="mq-xinchao">
+                        <marquee behavior="alternate" scrolldelay="5"  direction=”left”>
+                            <asp:Label ID="txtxinchao" class="xinchao" runat="server" Text="Label"></asp:Label>
+                        </marquee>
+				    </div>
+                </div>
+			</div>
+		</div>
+		<div id="buttom">
+			<div class="header-content">
+				<div class="buttom-left">
+					<ul class="buttom-danhmuc">
+                        
+						<li id="trangchu"><a href="chinh.aspx">TRANG CHỦ</a></li>
+						<li id="tailieu" class="danhmuc"><a href="tailieu.aspx">TÀI LIỆU</a>
+							<ul class="ctdanhmuc">
+								<li><a href="tl-giaotrinh.aspx">GIÁO TRÌNH</a></li>
+								<li><a href="tl-thamkhao.aspx">THAM KHẢO</a></li>
+							</ul>
+						</li>
+						<li id="sachkynang" class="danhmuc"><a href="sachkynang.aspx">SÁCH KỸ NĂNG</a>
+							<ul class="ctdanhmuc">
+                                <li><a href="skn-kynangcoban.aspx">KỸ NĂNG CƠ BẢN</a></li>
+								<li><a href="skn-kynangmem.aspx">KỸ NĂNG MỀM</a></li>
+								<li><a href="skn-kynangcuocsong.aspx">KỸ NĂNG CUỘC SỐNG</a></li>
+							</ul>
+						</li>
+						<li id="truyendoc" class="danhmuc"><a href="truyendoc.aspx">TRUYỆN ĐỌC</a>
+							<ul class="ctdanhmuc">
+								<li><a href="trd-tieuthuyet.aspx">TIỂU THUYẾT</a></li>
+								<li><a href="trd-cotich.aspx">CỔ TÍCH</a></li>
+								<li><a href="trd-ngontinh.aspx">NGÔN TÌNH</a></li>
+								<li><a href="trd-trinhtham.aspx">TRINH THÁM</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="buttom-right">
+					<ul>
+						<li><a href="#"><img src="hinhanh/thuvien.png">Thư viện</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div style="clear: both;"></div>
+	</header>
+    <content>
+		<div class="content">
+            <asp:ContentPlaceHolder ID="cph_content" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+		<div style="clear: both;"></div>
+    </content>
+    <footer>
+		<div class="footer-contenter">
+			<div class="footer-menu">
+                <a href="chinh.aspx">Trang chủ</a>
+                <a href="tailieu.aspx">Tài liệu</a>
+                <a href="sachkynang.aspx">Sách kỹ năng</a>
+                <a href="truyendoc.aspx">Truyện đọc</a>
+                <a href="gioithieu.aspx">Giới thiệu</a>
+                <a href="dieukhoansudung.aspx">Điều khoản sử dụng</a>
+                <a href="chinhsachbaomat.aspx">Chính sách bảo mật</a>
+                <a href="lienhe.aspx" style="border: none;">Liên hệ</a>
+            </div>
+			<div class="footer-left">
+				<img src="hinhanh/logo.png">
+				<p>
+					<a href="chinh.aspx">dodosach.vn</a><br /><br />
+					Copyright © 2018 DoDo
+				</p>
+			</div>
+			<div class="footer-right">
+                <p class="f14 bold">CÔNG TY CỔ PHẦN TRUYỀN THÔNG ĐÔ ĐÔ</p>
+                <p>Số 197 Pháo Đài Láng, Láng Thượng, Đống Đa, Hà Nội</p>
+                <p>DKKD số 111568456 do SKHDT Hà Nội cấp 27/5/2018</p>
+                <p>Website: dodosach.vn - Điện thoại: 0989923066</p>
+				<p>Người chịu trách nhiệm nội dung: Nguyễn Thành Đô</p>
+			</div>
+		</div>
+		<div style="clear: both;"></div>
+	</footer>
+    
+    </form>
+</body>
+</html>

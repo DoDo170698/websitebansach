@@ -1,0 +1,372 @@
+﻿body {
+    background-image: linear-gradient(#CAFBB1, #e9f6dd);
+    color: #2e2e2e;
+    font-family: Arial;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    top:0;
+}
+.blue {
+    background-color: #2381b2;
+    border: medium none;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    width: 100px;
+    height: 40px;
+    margin: 0px 0px 10px 15px;
+    padding: auto;
+}
+.blue:hover{
+	background-color: #205d7c;
+}
+a{
+	text-decoration: none;
+}
+header{
+	position: relative;
+	background-color: blue;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	top:0;
+	z-index: 20;
+}
+header a{
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	display: block;
+	white-space: nowrap;
+	padding: 0px 10px 0px 15px;
+	position: relative;
+}
+form{
+	display: block;
+}
+div{
+	display: block;
+}
+.header-content{
+	width: 1000px;
+	margin: auto;
+	padding: 0;
+	background-color: green;
+}
+#top{
+    top: 0;
+	height: 100px;
+	width: 100%;
+	background-color: white;
+}
+#buttom {
+    height: 40px;
+    width: 100%;
+    background-color: #63db3a;
+    position: fixed;
+}
+.top-left {
+    float: left;
+    width: 590px;
+    height: 100px;
+}
+.title-logo{
+	margin-left: 15px;
+	border-radius: 33px;
+	display: block;
+	float: left;
+	width: 150px;
+	height: 100px;
+}
+.header-search{
+    margin-top: 0px;
+    display: block;
+    position: relative;
+    float: left;
+    line-height: 100px;
+    float: right;
+}
+.header-search .search-box {
+    margin-top: 30px;
+    font-size: 17px;
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    box-shadow: 1px 2px 1px #b3afaf inset;
+    height: 27px;
+    padding: 7px 6px 4px 10px;
+    width: 335px;
+}
+.top-right {
+    display: block;
+    float: right;
+    height: 100px;
+    width: 410px;
+    position:relative;
+}
+.top-right a {
+    margin: 30px 0px 0px 0px;
+    float: right;
+    font-size: 17px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    color: #070707;
+}
+.top-right .hethong a {
+    width: 140px;
+}
+.top-right a img {
+    width: 22px;
+    height: 22px;
+    float: left;
+    margin: 8px 5px 0px 0px;
+    display: block;
+    position: relative;
+}
+
+.top-right a:hover {
+    text-decoration: underline;
+    background-color: #9ce34d;
+    border-radius: 5px;
+}
+.top-right #btndangnhap{
+    float: right;
+}
+#btnhethong:hover .hethong{
+    display:block;
+}
+.hethong {
+    display: none;
+    background-color: white;
+    width: auto;
+    height: auto;
+    position: absolute;
+    float: right;
+    right: 0;
+    top: 70px;
+    z-index: 40;
+    border-radius: 5px;
+    border: 1px solid #009688;
+}
+.hethong a{
+    margin: 0;
+}
+.top-right .dadangnhap {
+    clear: both;
+}
+.mq-xinchao {
+    width: 353px;
+    margin: 0;
+}
+.top-right .xinchao {
+    float: left;
+    font-size: 15px;
+    line-height: 40px;
+    font-weight: bold;
+    text-align: center;
+    width: auto;
+    height: 40px;
+    margin: 30px 0px 0px 0px;
+    padding: 0px 5px 0px 5px;
+    display: block;
+    border-radius: 5px;
+    animation: colorBackground 5.2s infinite;
+    -webkit-animation: colorBackground 5.2s infinite;
+    -moz-animation: colorBackground 5.2s infinite;
+    -o-animation: colorBackground 0.5 infinite;
+}
+@keyframes colorBackground {
+    0% {
+        background-color: white;
+    }
+    50% {
+        background-color: #9ce34d;
+    }
+}
+
+
+
+.buttom-left{
+	float: left;
+	display: block;
+	padding: 0;
+	height: 100%;
+} 
+.buttom-danhmuc{
+	margin-right: 0;
+	display: block; 
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	z-index: 9;
+}
+.buttom-danhmuc li{
+	float: left;
+	display: block;	
+	list-style-type: none;
+	line-height: 40px;
+}
+
+.buttom-danhmuc li:hover{
+	background-color: #289928;
+	display: block;
+}
+
+
+.danhmuc:hover .ctdanhmuc{
+	opacity: 1;
+	padding: 0; 
+	height: auto;
+	transition: 0.5s;
+}
+.ctdanhmuc{
+	opacity: 0;
+	margin: 0;
+	height: 0;
+	overflow: hidden;
+	position: absolute; /* co dinh thanh ul ko bi thay doi */
+}
+
+.ctdanhmuc li {
+    display: block;
+    clear: both;
+    width: 100%;
+    margin: 0;
+    list-style-type: none;
+    background-color: #289928;
+    border-top: solid #63db3a 1.5px;
+}
+.ctdanhmuc li a{
+	margin: 0;
+}
+.ctdanhmuc li:hover{
+	background-color: #63db3a;
+	display: block;
+	clear: both;
+	width: 100%;
+	margin: 0;
+	list-style-type: none;
+}
+
+
+
+	
+.buttom-right{
+	float: right;
+	height: 40px;
+}
+.buttom-right ul{
+	display: block;
+	height: 100%;
+	margin: 0;
+}
+.buttom-right>ul>li{
+	height: 100%;
+	padding: 0;
+	display: block;
+	background-color: #289928;
+}
+.buttom-right img{
+	float: left;
+	display: block;
+	width: 22px;
+	height: 25px;
+	margin: 8px 6px 0px 0px;
+}
+.buttom-right a{
+	display: block;
+	float: left;
+	line-height: 40px;
+	position: relative;
+}
+
+
+
+
+content{
+	width: 100%;
+	height:100%;
+	margin: 0;
+}
+.content{
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    z-index: 1;
+}
+
+
+
+
+footer{
+	background-color: white;
+	width: 100%;
+	height: 250px;
+	margin: 20px 0px 0px 0px;
+	border-top: 5px solid #90dd3a;
+	padding: 0;
+	bottom: 0;
+	float: left;
+}
+.footer-contenter{
+	position: relative;
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	background-color: white;
+}
+.footer-menu{
+	width: 100%;
+    text-align: center;
+    line-height: 30px;
+    margin-top :10px;
+}
+.footer-menu a{
+	color: #379318;
+	font-size: 16px;
+    padding: 0px 15px;
+    border-right: 1px solid #ccc;
+    line-height: 18px;
+}
+.footer-menu a:hover{
+	text-decoration: underline;
+}
+.footer-left{
+	width: 500px;
+	margin: 15px 0px 0px 20px;
+	position: relative;
+	float: left;
+}
+.footer-left img{
+	float: left;
+	width: 100px;
+	height: 80px;
+}
+.footer-left p{
+	float: left;
+	margin: 15px 0px 0px 20px;
+	font-size: 16px;
+	line-height: 15px;
+}
+.footer-left a{
+	margin-bottom: 5px;
+	color: #379318;
+}
+
+.footer-right{
+	display: block;
+	float: right;
+	width: 420px;	
+	margin: 5px 40px 0px 0px;
+	position: relative;
+}
+.footer-right p{
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}

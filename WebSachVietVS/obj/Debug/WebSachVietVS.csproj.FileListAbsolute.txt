@@ -1,0 +1,33 @@
+D:\Dữ liệu học tập\Lập trình Web\ĐỒ ÁN\WebSachVietVS\WebSachVietVS\bin\WebSachVietVS.dll.config
+D:\Dữ liệu học tập\Lập trình Web\ĐỒ ÁN\WebSachVietVS\WebSachVietVS\bin\WebSachVietVS.dll
+D:\Dữ liệu học tập\Lập trình Web\ĐỒ ÁN\WebSachVietVS\WebSachVietVS\bin\WebSachVietVS.pdb
+D:\Dữ liệu học tập\Lập trình Web\ĐỒ ÁN\WebSachVietVS\WebSachVietVS\obj\Debug\WebSachVietVS.dll
+D:\Dữ liệu học tập\Lập trình Web\ĐỒ ÁN\WebSachVietVS\WebSachVietVS\obj\Debug\WebSachVietVS.pdb
+D:\Dữ liệu học tập\Lập trình Web\ĐỒ ÁN\WebSachVietVS\WebSachVietVS\obj\Debug\WebSachVietVS.csprojResolveAssemblyReference.cache
+D:\HocTap\2\Lập trình Web\ĐỒ ÁN\WebSachVietVS\WebSachVietVS\bin\WebSachVietVS.dll.config
+D:\HocTap\2\Lập trình Web\ĐỒ ÁN\WebSachVietVS\WebSachVietVS\bin\WebSachVietVS.dll
+D:\HocTap\2\Lập trình Web\ĐỒ ÁN\WebSachVietVS\WebSachVietVS\bin\WebSachVietVS.pdb
+D:\HocTap\2\Lập trình Web\ĐỒ ÁN\WebSachVietVS\WebSachVietVS\obj\Debug\WebSachVietVS.csprojAssemblyReference.cache
+D:\HocTap\2\Lập trình Web\ĐỒ ÁN\WebSachVietVS\WebSachVietVS\obj\Debug\WebSachVietVS.csproj.CoreCompileInputs.cache
+D:\HocTap\2\Lập trình Web\ĐỒ ÁN\WebSachVietVS\WebSachVietVS\obj\Debug\WebSachVietVS.dll
+D:\HocTap\2\Lập trình Web\ĐỒ ÁN\WebSachVietVS\WebSachVietVS\obj\Debug\WebSachVietVS.pdb
+D:\HocTap\DuLieu\Lập trình Web\ĐỒ ÁN\WebSachVietVS\WebSachVietVS\bin\WebSachVietVS.dll.config
+D:\HocTap\DuLieu\Lập trình Web\ĐỒ ÁN\WebSachVietVS\WebSachVietVS\bin\WebSachVietVS.dll
+D:\HocTap\DuLieu\Lập trình Web\ĐỒ ÁN\WebSachVietVS\WebSachVietVS\bin\WebSachVietVS.pdb
+D:\HocTap\DuLieu\Lập trình Web\ĐỒ ÁN\WebSachVietVS\WebSachVietVS\obj\Debug\WebSachVietVS.csprojAssemblyReference.cache
+D:\HocTap\DuLieu\Lập trình Web\ĐỒ ÁN\WebSachVietVS\WebSachVietVS\obj\Debug\WebSachVietVS.csproj.CoreCompileInputs.cache
+D:\HocTap\DuLieu\Lập trình Web\ĐỒ ÁN\WebSachVietVS\WebSachVietVS\obj\Debug\WebSachVietVS.dll
+D:\HocTap\DuLieu\Lập trình Web\ĐỒ ÁN\WebSachVietVS\WebSachVietVS\obj\Debug\WebSachVietVS.pdb
+D:\HocTap\DuLieu\Lập trình Web\ĐỒ ÁN\WebSachVietVS\WebSachVietVS\bin\CKEditor.NET.dll
+D:\HocTap\DuLieu\Lập trình Web\ĐỒ ÁN\WebSachVietVS\WebSachVietVS\bin\CKEditor.NET.pdb
+D:\HocTap\DuLieu\Lập trình Web\ĐỒ ÁN\WebSachVietVS\WebSachVietVS\obj\Debug\WebSachVietVS.csproj.CopyComplete
+D:\HocTap\Lập trình Web\ĐỒ ÁN\WebSachVietVS\WebSachVietVS\bin\WebSachVietVS.dll.config
+D:\HocTap\Lập trình Web\ĐỒ ÁN\WebSachVietVS\WebSachVietVS\bin\WebSachVietVS.dll
+D:\HocTap\Lập trình Web\ĐỒ ÁN\WebSachVietVS\WebSachVietVS\bin\WebSachVietVS.pdb
+D:\HocTap\Lập trình Web\ĐỒ ÁN\WebSachVietVS\WebSachVietVS\bin\CKEditor.NET.dll
+D:\HocTap\Lập trình Web\ĐỒ ÁN\WebSachVietVS\WebSachVietVS\bin\CKEditor.NET.pdb
+D:\HocTap\Lập trình Web\ĐỒ ÁN\WebSachVietVS\WebSachVietVS\obj\Debug\WebSachVietVS.csprojAssemblyReference.cache
+D:\HocTap\Lập trình Web\ĐỒ ÁN\WebSachVietVS\WebSachVietVS\obj\Debug\WebSachVietVS.csproj.CoreCompileInputs.cache
+D:\HocTap\Lập trình Web\ĐỒ ÁN\WebSachVietVS\WebSachVietVS\obj\Debug\WebSachVietVS.csproj.CopyComplete
+D:\HocTap\Lập trình Web\ĐỒ ÁN\WebSachVietVS\WebSachVietVS\obj\Debug\WebSachVietVS.dll
+D:\HocTap\Lập trình Web\ĐỒ ÁN\WebSachVietVS\WebSachVietVS\obj\Debug\WebSachVietVS.pdb

@@ -1,0 +1,140 @@
+﻿body {
+    position: relative;
+    background-image: url('../hinhanh/anhgo.jpg');
+    background-size: cover;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    display: block;
+    top: 0;
+}
+a{  
+    text-decoration: none;
+}
+li{
+    list-style:none;
+}
+.content {
+    width: 1200px;
+    height: auto;
+    text-align:center;
+    margin: auto;
+}
+.contenter{
+    width:auto;
+    height:auto;
+    position:relative;
+}
+.contenter > img {
+    width: 1130px;
+    height: 590px;
+    position: inherit;
+}
+.contenter > .np {
+    position: absolute;
+    top: 45%;
+    border-radius:50%;
+}
+.contenter > #next{
+    right:0;
+}
+.contenter > #prev {
+    left: 0;
+    margin: 0px 0px 0px -7px;
+}
+.contenter > .np > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.contenter > .np > img:hover{
+    cursor:pointer;
+}
+
+#ndsach {
+    width: 1060px;
+    height: 550px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    margin: 11px 0px 0px 63px;
+    overflow: hidden;
+}
+#ndsach .noidung {
+    margin:0;
+    padding:0;
+    width:4240px;
+    height:100%;
+}
+
+.nd {
+    width: 1060px;
+    height: 100%;
+    float: left;
+}
+
+.ndleft {
+    float: left;
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    position: relative;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0.95, #fff), color-stop(1, #dadada));
+    background-image: -webkit-linear-gradient(left, #fff 95%, #dadada 100%);
+}
+.ndright {
+    float: right;
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    position: relative;
+}
+
+.contentbook {
+    margin: 20px 30px 26px 30px;
+    text-align: center;
+    overflow: hidden;
+    height: 504px;
+    width: 450px;
+    font-family: Times New Roman;
+    font-size: 20px;
+    line-height:33px;
+}
+.contentbook  p{
+    text-align:justify;
+    margin:0;
+}
+.contentbook .bookpage {
+    position: absolute;
+    bottom:5px;
+}
+.footer {
+    margin-top: 18px;
+    width: 100%;
+    height: 40px;
+    background-color: #1d1c1c87;
+    text-align: center;
+}
+.footer-content{
+    margin:auto;
+}
+
+.footer a {
+    float: left;
+    width: auto;
+    margin: 0px 70px 0px 75px;
+    padding: 5px 0px 5px 0px;
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+    cursor:pointer;
+}
+.footer a:hover {
+    color: #7575ec;
+}
+
+.footer a img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}

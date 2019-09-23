@@ -1,0 +1,289 @@
+﻿
+.content-contenter {
+    clear: both;
+    float: left;
+    margin-top: 10px;
+    padding-bottom: 15px;
+    min-height: 300px;
+    width: 100%;
+}
+
+.title {
+    box-shadow: 1px 1px 1px #b3afaf;
+    border-bottom: 2px solid #ccc;
+    clear: both;
+    float: left;
+    padding: 10px;
+    width: 98%;
+    background: white;
+    display: block;
+}
+
+.title img {
+    float: left;
+    height: 30px;
+    width: 30px;
+}
+
+.title span {
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0px 0px 0px 15px;
+    color: #807d7d;
+}
+
+
+.theloai-left {
+    float: left;
+    margin: 12px 0px 0px 0px;
+    width: 200px;
+    height: auto;
+    background-color: white;
+}
+
+.title-list-theloai {
+    background: none repeat scroll 0 0 #235f7e;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    height: 50px;
+    line-height: 50px;
+    text-indent: 15px;
+    text-transform: uppercase;
+}
+
+.content-list-theloai {
+    border: 1px solid #ccc;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+}
+
+.content-list-theloai ul {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.content-list-theloai ul li {
+    list-style: none;
+    display: list-item;
+    border-bottom: 1px solid #ccc;
+    text-indent: 10px;
+}
+
+.content-list-theloai ul li:hover {
+    background-color: #dcdcdc;
+}
+
+.content-list-theloai ul li a {
+    display: block;
+    padding: 13px 0;
+    color: #665f5f;
+    cursor: pointer;
+    transition: transform 0.3s;
+    font-size: 17px;
+    text-indent: 15px;
+        }
+
+.theloai-right {
+    background-color: white;
+    float: right;
+    margin-top: 12px;
+    width: 790px;
+    padding-bottom: 20px;
+}
+
+.contenter-danhmuc {
+    clear: both;
+    display: block;
+    width: 100%;
+    position: relative;
+    float: left;
+    margin-top: 5px;
+}
+
+    .contenter-danhmuc > .title-box > img {
+        width: 30px;
+        height: 30px;
+        margin: 2px 0px 0px 10px;
+        float: left;
+        padding: 5px 10px 5px 0px;
+    }
+
+    .contenter-danhmuc > .title-box > a {
+        display: block;
+        float: left;
+        font-size: 20px;
+        padding: 13px 0px 5px 0px;
+        color: #717171;
+    }
+
+    .contenter-danhmuc > .title-box > .readmore {
+        color: #717171;
+        cursor: pointer;
+        display: block;
+        float: right;
+        border: solid 1px #717171;
+        padding: 5px 5px 2px 5px;
+        margin: 8px 20px 0px 0px;
+        font-size: 15px;
+    }
+
+        .contenter-danhmuc > .title-box > .readmore:hover {
+            background-color: #d5d4d4;
+        }
+
+    .contenter-danhmuc > .content-box {
+        clear: both;
+        float: left;
+        width: 100%;
+        overflow: hidden;
+        height: auto;
+        display: block;
+    }
+
+.list-book {
+    overflow: hidden;
+    margin: 20px 38px 0px 37px;
+    height: auto;
+}
+
+
+    .list-book ul {
+        display: block;
+        float: left;
+        padding-left: 0px;
+        width: auto;
+        margin: 0px 0px 10px 0px;
+        position: relative;
+        overflow: inherit;
+    }
+
+        .list-book ul li {
+            float: left;
+            height: 100%;
+            margin: 0px 29px 0px 0px;
+            list-style: none;
+            display: block;
+            position: relative;
+        }
+
+.hinhanh-book {
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    width: 155px;
+    border: 1px solid #ccc;
+}
+
+    .hinhanh-book a {
+        display: block;
+        color: #717171;
+        cursor: pointer;
+    }
+
+        .hinhanh-book a img {
+            display: block;
+            width: 155px;
+            height: 240px;
+        }
+
+    .hinhanh-book:hover .hover-hinhanh-book {
+        /* display: block; */
+        transition: 0.3s;
+        margin-top: -85px;
+    }
+
+.hover-hinhanh-book {
+    overflow: inherit;
+    position: absolute;
+    /* display: none; */
+    height: 85px;
+    width: 100%;
+    background-color: #1c1b1bb3;
+}
+
+    .hover-hinhanh-book .tacgia {
+        color: #fafafa;
+        display: inline-block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 100%;
+        font-size: 15px;
+        margin: 5px 0px 5px 2px;
+    }
+
+    .hover-hinhanh-book .nxb {
+        color: #f44e4e;
+        display: inline-block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 100%;
+        font-size: 15px;
+        width: auto;
+        margin: 0px 0px 0px 5px;
+    }
+
+    .hover-hinhanh-book .hover-btn {
+        display: block;
+        margin: 0px 0px 5px 0px;
+    }
+
+.hover-btn .btn-white {
+    display: block;
+    height: 25px;
+    margin: auto;
+    width: 90px;
+    cursor: pointer;
+    background-color: white;
+    border-color: white;
+    border-radius: 5px;
+}
+
+    .hover-btn .btn-white:hover {
+        background-color: #36abe7;
+        border-color: #36abe7;
+        transition: 0.3s;
+    }
+
+    .hover-btn .btn-white p {
+        margin: 0;
+        color: black;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .hover-btn .btn-white:hover p {
+        color: white;
+        transition: 0.3s;
+    }
+
+.name-book {
+    color: #515151;
+    cursor: pointer;
+    height: auto;
+    display: block;
+    width: 157px;
+    margin: 5px 0px 12px 0px;
+    text-align:center;
+}
+
+    .name-book:hover {
+        color: #1197b4;
+    }
+
+    .name-book h3 {
+        font-size: 17px;
+        padding: 0;
+        margin: 0px 5px 0px 5px;
+    }
+
+
+
+
+
+
